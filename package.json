@@ -1,0 +1,23 @@
+{
+  "name": "com.dreadscripts.tool.autobounds",
+  "displayName": "AutoBounds",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Editor script to help setting the bounds of skinned mesh renderers.",
+  "keywords": [
+	"Dreadrith",
+	"DreadScripts",
+	"DreadTools",
+	"Editor",
+	"Utility",
+	"Renderers"
+  ],
+  "author": {
+    "name": "Dreadrith",
+    "email": "dreadscripts@gmail.com",
+    "url": "https://github.com/Dreadrith"
+  },
+  "legacyFolders": {
+    "Assets\\DreadScripts\\Utility\\Editor\\AutoBounds": "97d295ac00bde904b83106bff682f8b6"
+  }
+}
