@@ -11,7 +11,7 @@ namespace DreadScripts.AutoBounds
 {
     public class AutoBounds
     {
-        private const float boundsPercentIncrease = 10;
+        private const float boundsPercentIncrease = 15;
 
         //Sets bounds to auto-calculated dimensions starting from the target
         [MenuItem("DreadTools/Utility/AutoBounds/Auto")]
@@ -37,12 +37,15 @@ namespace DreadScripts.AutoBounds
                 if (maxExtent < currentExtent) maxExtent = currentExtent;
             }
 
+            //Center out the bounds based on current dimensions
+            Vector3 center = new Vector3(0, maxExtent / 2, 0);
+
             //Increase area by percentage for safe measure
             maxExtent *= 1 + boundsPercentIncrease / 100;
-            Bounds myBounds = new Bounds(new Vector3(0, maxExtent / 2, 0), new Vector3(maxExtent, maxExtent, maxExtent));
+            Vector3 extents = new Vector3(maxExtent, maxExtent, maxExtent);
 
             //Set auto calculated bounds starting from target as root
-            SetBounds(rootTransform, myBounds);
+            SetBounds(rootTransform, new Bounds(center, extents));
         }
 
 
