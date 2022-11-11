@@ -10,7 +10,7 @@ Menu items can be found in the top left corner of the Unity Editor window
 ===========================================================================
 
 [Automatic]
-This will set all the skinned mesh renderers of the target to the same automatically calculated bounds and sets the root bone as the target. 
+This will set all the skinned mesh renderers of the target to the same automatically calculated bounds and sets the hip/root bone as the target. 
 
 1- Select the root of your avatar.
 2- Press the menu item: [DreadTools > Utility > AutoBounds > Auto]
