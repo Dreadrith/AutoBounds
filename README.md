@@ -17,5 +17,4 @@ This will set all the skinned mesh renderers that are children to the top most p
 1- Select the target that you want to sample from.  
 2- Press the menu item: [DreadTools > Utility > AutoBounds > Sample]
 
-![](https://raw.githubusercontent.com/Dreadrith/AutoBounds/main/_media/Before.png)
-![](https://raw.githubusercontent.com/Dreadrith/AutoBounds/main/_media/After.png)
+[<img src="https://raw.githubusercontent.com/Dreadrith/AutoBounds/main/_media/Before.png">]() [<img src="https://raw.githubusercontent.com/Dreadrith/AutoBounds/main/_media/After.png">]()
